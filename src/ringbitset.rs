@@ -36,6 +36,10 @@ impl RingBitSet {
     pub fn length(&self) -> usize {
         self.length
     }
+
+    pub fn capacity_in_bits(&self) -> usize {
+        self.capacity_in_bits
+    }
 }
 
 #[cfg(test)]
